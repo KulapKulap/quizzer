@@ -3,10 +3,10 @@
     error_reporting(E_ALL);
     ini_set('display_errors', 1);
     //connect with db
-    $db_host = 'localhost';
-    $db_user = 'root';
+    $db_host = '';
+    $db_user = '';
     $db_pass = '';
-    $db_name = 'quizzer';
+    $db_name = '';
 
     // Create a mysqli object
     $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name);
